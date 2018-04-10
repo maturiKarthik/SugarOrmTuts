@@ -37,6 +37,11 @@
         android:layout_height="wrap_content"
         android:text="SHOW_DB"/>
 
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPDATE_DB"/>
    <FrameLayout
        android:id="@+id/frame"
        android:layout_width="wrap_content"

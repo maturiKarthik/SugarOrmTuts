@@ -28,9 +28,11 @@ import static android.support.test.espresso.matcher.ViewMatchers.withId;
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class FirstTest {
 
+
+
+
     @Rule
-    public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(
-            MainActivity.class);
+    public ActivityTestRule<MainActivity> mActivityRule = new ActivityTestRule<>(MainActivity.class);
 
 
     @Before
