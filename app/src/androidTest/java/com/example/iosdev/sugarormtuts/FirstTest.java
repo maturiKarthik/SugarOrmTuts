@@ -77,7 +77,7 @@ public class FirstTest {
             } else if (currentLocale.equals(Locale.ENGLISH)){
                 // click English
                 /**
-                 * Code For each Language ..
+                 * Code For each Language .. different languages ..
                  */
                 // click French..
                 onView(withId(R.id.name)).perform(typeText("rtre")).check(matches(isDisplayed()));
