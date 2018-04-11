@@ -1,3 +1,6 @@
 <resources>
     <string name="app_name">SugarOrmTuts</string>
+    <string name="show_db" translatable="true">SHOW DB</string>
+    <string name="update_db" translatable="true">UPDATE DB</string>
+    <string name="save_db" translatable="true">SAVE DB</string>
 </resources>

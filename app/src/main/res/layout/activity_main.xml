@@ -29,19 +29,20 @@
         android:id="@+id/save"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SAVE_DB"/>
+        android:text="@string/save_db"/>
 
     <Button
         android:id="@+id/show"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="SHOW_DB"/>
+        android:text="@string/show_db"/>
 
     <Button
         android:id="@+id/update"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="UPDATE_DB"/>
+        android:text="@string/update_db"/>
+
    <FrameLayout
        android:id="@+id/frame"
        android:layout_width="wrap_content"

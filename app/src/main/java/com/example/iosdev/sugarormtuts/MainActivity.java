@@ -14,6 +14,7 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import java.util.List;
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -33,6 +34,8 @@ public class MainActivity extends AppCompatActivity {
         save_db = (Button)findViewById(R.id.save);
         show_db = (Button)findViewById(R.id.show);
         update_db = (Button)findViewById(R.id.update);
+        Log.d("LAN",""+Locale.getDefault().getDisplayLanguage().toUpperCase());
+
 
         Toast.makeText(getApplicationContext(),"PLEASE_ENTER NAME AND FOLLOWING YOU WANT TO UPDATE ..IF NO CLICK ON SHOW DB AND UPDATE WHICH EXIT ALREADY",Toast.LENGTH_LONG).show();
 
